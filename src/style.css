@@ -1,10 +1,6 @@
 body{
-    /*background-color: rgb(204, 249, 131);*/
     padding: 5px;
     background-image: url("IMG/bg2.jpg");
-    /*text-align: center;*/
-    /*display: flex;
-    justify-content: center;*/
 }
 
 .container{
@@ -43,11 +39,13 @@ body{
 .side-img-top-l{
     width: 100px ;
     height: 100px ;
+    margin-left: 55px;
 }
 
 .side-img-top-r{
-    width: 300px ;
+    width: 100px ;
     height: 100px ;
+    margin-right: 55px;
 }
 
 
@@ -67,18 +65,14 @@ body{
 }
 
 .nov1{
-    /*border: 3px solid white;*/
     border-top: 2px solid white;
     border-bottom: 2px solid white;
 
 }
 
 .m-cent{
-    /*margin-bottom: 15px;*/
     display: flex;
     justify-content: space-between;
-    /*padding: 20px;*/
-
     height: 72vh;
 
     /*Added*/
@@ -115,10 +109,10 @@ body{
 }
 
 
-
 .CR{
 
 }
+
 
 .CElement{
     margin-bottom: 15px;
@@ -133,14 +127,20 @@ body{
 .cc1{
     width: 600px;
     height: 283px;
-    margin: 0px auto;
+    margin: 11px auto;
     display: block;
 }
 
 .C-Title{
+    margin: 4px 0 10px 0;
     text-align: center;
     font-size: 55px;
     color: rgb(95, 235, 240);
+
+
+    text-shadow:0px 0px 10px #fff;
+    color: rgba(36, 124, 240, 0.6);
+    font-family:Verdana, Geneva, sans-serif;
 }
 
 
@@ -192,7 +192,7 @@ body{
 
 .a-button{
     display: block;
-    background-color: rgb(120, 182, 238);
+    background-color: rgba(120, 182, 238, 0.3);
     margin: 0 0 10px 0;
     padding: 7px;
     text-align: center;
@@ -203,13 +203,13 @@ body{
     border: 1px solid rgb(0, 117, 255);
 }
 .a-button:hover{
-    background-color: rgb(53, 131, 235);
+    background-color: rgba(53, 131, 235, 0.4);
 }
 
 
 .b-button{
     display: block;
-    background-color: rgb(140, 97, 246);
+    background-color: rgba(140, 97, 246, 0.4);
     margin: 0 0 10px 0;
     padding: 7px;
     text-align: center;
@@ -239,13 +239,10 @@ body{
 
 .bottom1{
     height: 55px;
-    /*width: 250px;*/
-    /*margin-left: 25px;*/
     margin: 0px auto;
     display: flex;
     flex-direction: row;
     justify-content: center;
-    /*border-radius: 10px;*/
 }
 
 .icon{
@@ -255,7 +252,6 @@ body{
 }
 
 .name{
-    /*padding-left: 10px;*/
     margin: 4px 5px 0px 10px;
     font-size: 15px;
 }

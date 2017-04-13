@@ -1,15 +1,9 @@
 import React, { Component } from 'react';
 import './style.css';
-import tpic1 from './IMG/n7.png';
-import tpic2 from './IMG/title3.png';
-import tpic3 from './IMG/mec.png';
 
 import tanis1 from './IMG/planet1.png';
 import ship1 from './IMG/ship3.png';
-
-
 import cc1 from './IMG/01-pan1.jpg';
-
 
 
 
@@ -29,7 +23,6 @@ class CBar extends Component{
                         <a className="a-button" href="https://namu.wiki/w/%ED%8C%AC%EB%8F%84%EB%9F%BC" target="blank">Korean Site</a>
                         <a className="a-button" href="http://www.fandango.com/pandorum_121008/movieoverview" target="blank">Fandango</a>
                         <a className="a-button" href="http://www.jaredmobarak.com/2009/12/28/pandorum/" target="blank">Review</a>
-                        {/* <a className="a-button" href="" target="blank">t</a> */}
                     </div>
 
 
