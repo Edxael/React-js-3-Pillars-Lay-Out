@@ -5,6 +5,7 @@ import tpic2 from './IMG/title3.png';
 import tpic3 from './IMG/mec.png';
 
 import tanis1 from './IMG/planet1.png';
+import ship1 from './IMG/ship3.png';
 
 
 import cc1 from './IMG/01-pan1.jpg';
@@ -26,6 +27,8 @@ class CBar extends Component{
                         <a className="a-button" href="https://www.astronomytrek.com/pandorum-2009/" target="blank">Astronomustreck</a>
                         <a className="a-button" href="http://www.boxofficemojo.com/movies/?id=pandorum.htm" target="blank">Box Office Mojo</a>
                         <a className="a-button" href="https://namu.wiki/w/%ED%8C%AC%EB%8F%84%EB%9F%BC" target="blank">Korean Site</a>
+                        <a className="a-button" href="http://www.fandango.com/pandorum_121008/movieoverview" target="blank">Fandango</a>
+                        <a className="a-button" href="http://www.jaredmobarak.com/2009/12/28/pandorum/" target="blank">Review</a>
                         {/* <a className="a-button" href="" target="blank">t</a> */}
                     </div>
 
@@ -59,7 +62,7 @@ class CBar extends Component{
                             <h1 className="C-Title">Trailers</h1>
 
                             <div className="vid-box">
-                                <iframe className="vid-vid" src="https://www.youtube.com/embed/aLO5OACiXNg" frameborder="0" allowfullscreen></iframe>
+                                <iframe className="vid-vid" src="https://www.youtube.com/embed/jMhgI83ny54" frameborder="0" allowfullscreen></iframe>
                             </div>
 
                             <p>While a lot of critics panned Pandorum when it first came out, I, however, am baffled that so many of them missed out on the powerfully positive qualities of this unique, atmospheric film . I am pleased to say that Pandorum has since achieved a cult following amongst sci-fi fans.</p>
@@ -67,7 +70,7 @@ class CBar extends Component{
 
 
                             <div className="vid-box">
-                                <iframe className="vid-vid" src="https://www.youtube.com/embed/jMhgI83ny54" frameborder="0" allowfullscreen></iframe>
+                                <iframe className="vid-vid" src="https://www.youtube.com/embed/aLO5OACiXNg" frameborder="0" allowfullscreen></iframe>
                             </div>
 
                             <p>Another thing I love here is the strong performances from the two leads: Foster and Quaid. Ben Foster is a truly gifted actor and gives the part his all, while over the years Quaid has also shown himself to be excellent at working with dark drama/horror material. Furthermore, “The Walking Dead” fans will also enjoy watching the appearance of a really young Norman Reedus before he donned the crossbow and angel wings jacket in AMC’s smash hit TV series.</p>
@@ -95,12 +98,12 @@ class CBar extends Component{
 
                         </div>
 
-                        <div className="Trans CElement">
-                            <img className="side-img-top" src={tpic1} alt="y la foto??" />
-                            <p>lkjd llksdfj </p>
-                            <p>Hello</p>
-                            <p>Hello</p>
-                            <p>Hello</p>
+                        <div className="Trans CLastElement">
+                            <h1 className="C-Title">Travel to the Stars</h1>
+
+                            <img className="ship1-pic" src={ship1} alt="y la foto??" />
+                            <p>Our fears of overpopulation have occurred and the necessity to seek out new habitable worlds has been reached. Tanis has been found and it will serve as a new home, meeting the incalculable odds necessary to sustain human life. After many years of hoping to ferry over a settlement population, the time came with the advent of spaceship Elysium, capable of holding an astonishing 60,000 passengers. Something has gone wrong, however, and we listen to a radio broadcast wishing the flight crew good luck and safe journey for they are all that is left. Disjointed and discombobulated, exactly like the two crew members about to awaken from hibernation.</p>
+                            <p>The audience is left in the dark as to the meaning of that statement, let alone when it occurred in proximity to the present we are about to enter. Corporal Bower and Lieutenant Payton have become animated once more, unaware of their surroundings or their past, the only remnants of themselves lay in the training and duties they are meant to perform. It is a sort of muscle memory in their ability to understand the ship, but complete amnesia as far as recalling their own humanity.</p>
                         </div>
 
                     </div>
@@ -111,14 +114,15 @@ class CBar extends Component{
 
                     <div className="CR CSides Trans">
                         <a className="b-button" href="#">Space Movies</a>
-                        <a className="a-button" href="https://en.wikipedia.org/wiki/Pandorum" target="blank">WIKIPEDIA</a>
-                        <a className="a-button" href="https://en.wikipedia.org/wiki/Pandorum" target="blank">WIKIPEDIA</a>
-                        <a className="a-button" href="https://en.wikipedia.org/wiki/Pandorum" target="blank">WIKIPEDIA</a>
-                        <a className="a-button" href="https://en.wikipedia.org/wiki/Pandorum" target="blank">WIKIPEDIA</a>
-                        <a className="a-button" href="https://en.wikipedia.org/wiki/Pandorum" target="blank">WIKIPEDIA</a>
-                        <a className="a-button" href="https://en.wikipedia.org/wiki/Pandorum" target="blank">WIKIPEDIA</a>
-                        <a className="a-button" href="https://en.wikipedia.org/wiki/Pandorum" target="blank">WIKIPEDIA</a>
-                        <a className="a-button" href="https://en.wikipedia.org/wiki/Pandorum" target="blank">WIKIPEDIA</a>
+                        <a className="a-button" href="http://www.imdb.com/title/tt1731141/?ref_=nv_sr_1" target="blank">Enders Game</a>
+                        <a className="a-button" href="http://www.imdb.com/title/tt2051879/?ref_=nv_sr_1" target="blank">The Europa Report</a>
+                        <a className="a-button" href="http://www.imdb.com/title/tt0499549/?ref_=nv_sr_1" target="blank">Avatar</a>
+                        <a className="a-button" href="http://www.imdb.com/title/tt0118884/?ref_=nv_sr_1" target="blank">Contact</a>
+                        <a className="a-button" href="http://www.imdb.com/title/tt0816692/?ref_=fn_al_tt_1" target="blank">Interstellar</a>
+                        <a className="a-button" href="http://www.imdb.com/title/tt0448134/?ref_=fn_al_tt_1" target="blank">Sunshine</a>
+                        <a className="a-button" href="http://www.imdb.com/title/tt1446714/?ref_=fn_al_tt_1" target="blank">Prometeous</a>
+                        <a className="a-button" href="http://www.imdb.com/title/tt1483013/?ref_=fn_al_tt_1" target="blank">Oblivion</a>
+                        <a className="a-button" href="http://www.imdb.com/title/tt0134983/?ref_=fn_al_tt_1" target="blank">Supernova</a>
                     </div>
 
                 </div>

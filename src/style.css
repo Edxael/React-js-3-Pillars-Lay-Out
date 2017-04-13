@@ -118,6 +118,11 @@ body{
     padding: 15px;
 }
 
+.CLastElement{
+    margin-bottom: 0px;
+    padding: 15px;
+}
+
 .cc1{
     width: 600px;
     height: 283px;
@@ -127,6 +132,8 @@ body{
 
 .C-Title{
     text-align: center;
+    font-size: 55px;
+    color: rgb(95, 235, 240);
 }
 
 
@@ -135,6 +142,13 @@ body{
     display: block;
     width: 400px;
     height: 400px;
+}
+
+.ship1-pic{
+    margin: 0px auto;
+    display: block;
+    width: 504px;
+    height: 201px;
 }
 
 
