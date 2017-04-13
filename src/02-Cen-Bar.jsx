@@ -36,7 +36,7 @@ class CBar extends Component{
 
 
 
-                    <div className="CC nov">
+                    <div className="CC nov1">
 
                         <div className="Trans CElement">
                             <img className="cc1" src={cc1} alt="y la foto??" />

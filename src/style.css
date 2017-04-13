@@ -66,6 +66,13 @@ body{
     /*border: 1px solid black;*/
 }
 
+.nov1{
+    /*border: 3px solid white;*/
+    border-top: 2px solid white;
+    border-bottom: 2px solid white;
+
+}
+
 .m-cent{
     /*margin-bottom: 15px;*/
     display: flex;
