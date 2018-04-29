@@ -2,8 +2,11 @@
 
 Basic page showin how to make the 3 pilar Lay-Out
 
+![Screen Shoot](/src/IMG/02-ss.png)
+
 
 
 
 <hr/>
 by: Edmundo Rubio. 
+
