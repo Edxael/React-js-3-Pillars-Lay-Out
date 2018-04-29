@@ -2,7 +2,7 @@
 
 Basic page showin how to make the 3 pilar Lay-Out
 
-[www.mycode.website](/src/IMG/02-ss.png)
+![http://blog.mycode.website/](/src/IMG/02-ss.png)
 
 
 
